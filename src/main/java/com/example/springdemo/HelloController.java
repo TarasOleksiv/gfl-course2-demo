@@ -19,7 +19,7 @@ public class HelloController {
     @GetMapping(value = "/hello", produces = "Application/json")
     //http://localhost:8085/api/test/hello
     public User index() {
-        return new User("Taras", LocalDateTime.now());
+        return new User("John", LocalDateTime.now());
     }
 
     @GetMapping(value = "/id", produces = "Application/json")
